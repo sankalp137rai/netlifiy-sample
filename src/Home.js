@@ -26,7 +26,7 @@ function Home() {
 				>
 					Hello!! {user.displayName}
 				</h1>
-				<img src={user.photoURL}/>
+				<img src={user.photoURL} alt="profile pictue"/>
 				<h1>{user.uid}</h1>
 				<button
 					style={{

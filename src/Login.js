@@ -1,6 +1,4 @@
 import "./App.css";
-import { useContext } from "react";
-import { UserContext } from "./App";
 import React from "react";
 // import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
