@@ -29,10 +29,10 @@ function App() {
 		<UserContext.Provider value={{ user, setUser }}>
 			<div>
 				<Switch>
-					<Route path="/login" exact>
+					<Route path="/" exact>
 						<Login />
 					</Route>
-					<Route path="/" exact>
+					<Route path="/home" exact>
 						<Home />
 					</Route>
 				</Switch>

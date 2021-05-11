@@ -37,7 +37,7 @@ function Home() {
 					}}
 					onClick={function () {
 						firebase.auth().signOut();
-						history.push("/login");
+						history.push("/");
 					}}
 				>
 					Log out

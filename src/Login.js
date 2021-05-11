@@ -11,7 +11,7 @@ function Login() {
 
 	const uiConfig = {
 		signInFlow: "popup",
-		signInSuccessUrl: "/",
+		signInSuccessUrl: "/home",
 		signInOptions: [
 			firebase.auth.GoogleAuthProvider.PROVIDER_ID,
 			firebase.auth.EmailAuthProvider.PROVIDER_ID,
